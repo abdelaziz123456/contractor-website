@@ -1,0 +1,176 @@
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+header{
+    width:100%;
+    text-align: center;
+    
+
+}
+
+header>h1{
+    font-weight: lighter;
+    font-family:  'Raleway', sans-serif;;
+    font-size: 900;
+}
+
+.buttons>button{
+    border:1px solid white;
+    width:80px;
+    height:30px;
+    margin:10px
+}
+
+.background{
+        background-image: url('images/fam_blur.jpg');
+        background-size:cover;
+       background-repeat:no-repeat;
+       background-position-y: center;
+ 
+    
+}
+
+div>h1{
+    font-family:'Alice', serif;;
+    color:white;
+    font-size: 50px;
+    
+}
+
+.background>h2{
+    color:white;
+    font-family: 'Open sans', sans-serif;
+}
+
+.background>button,.content>button{
+    background-color:red;
+    border:none;
+    color:white;
+   padding:10px;
+    margin:10px ;
+    width:200px
+
+}
+
+.background{
+    padding:150px
+}
+
+.marked{
+    text-decoration:underline;
+
+}
+
+.content{
+width:75%;
+
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+
+
+
+
+
+}
+
+.content> h2 ,.content> h1{
+    color:rgba(0, 0, 0, 0.657);
+    font-family: sans-serif;
+    margin-bottom:5px;
+    align-self: flex-start;
+}
+
+.content>p{
+    font-size: medium;
+    color:rgba(0, 0, 0, 0.52);
+    margin-top:5px;
+}
+
+
+
+li{
+    color:rgba(0, 0, 0, 0.52);
+    margin:5px
+}
+
+.spec{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    width:100%;
+}
+
+th,td{
+    border:1px solid grey;
+    color:rgba(0, 0, 0, 0.616);
+    padding:5px
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    color: #484848;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.mainrow{
+    background-color:#C0C0C0;
+}
+.link{
+    width:100%;
+    text-align:right;
+}
+a{
+    text-decoration:none;
+    color:grey;
+  
+  
+   
+}
+
+.divider{
+    height:1px;
+    width:450px;
+    background-color: grey;
+   
+
+}
+
+footer{
+    width:100%;
+    
+    background-image: url('images/us_left_web_30.jpg');
+    background-size: cover;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding:200px 10px
+}
+
+
+.contact>h1,.contact>h2{
+    color:red;
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+.final{
+    color:blue ;
+}
+
+
